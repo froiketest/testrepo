@@ -1,0 +1,7 @@
+name: "test"
+on:
+  pull_request_target:
+    types:
+      - opened
+permissions:
+  pull_request_target: write
